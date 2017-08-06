@@ -22,10 +22,11 @@
       <scope>test</scope>
     </dependency>
     
+    <!-- Gecco -->
 	 <dependency>
 	   <groupId>com.geccocrawler</groupId>
 	   <artifactId>gecco</artifactId>
-	   <version>1.0.8</version>
+	   <version>1.2.4</version>
 	</dependency>
 	
 	<dependency>

@@ -12,6 +12,9 @@ import com.geccocrawler.gecco.pipeline.Pipeline;
 @PipelineName(value="blogPipelines")
 public class BlogPipelines implements Pipeline<Blog>{
 
+	/**
+	 * 将抓取到的内容进行处理  这里是打印在控制台
+	 */
 	public void process(Blog blog) {
 		System.out.println(blog.getContent());
 	}

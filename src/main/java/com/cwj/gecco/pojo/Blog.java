@@ -17,7 +17,7 @@ import com.geccocrawler.gecco.spider.SpiderBean;
 public class Blog implements SpiderBean{
 	/**
 	 * 向指定URL发送GET方法的请求
-	 */
+	 */	
 	@Request
 	private HttpRequest request;
 	
